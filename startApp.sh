@@ -1,7 +1,7 @@
 sudo modprobe ftdi_sio
 sleep 1
 
-cd /home/pi/Application/DSPL-serial/
+cd /home/pi/Application/DSPL_serial_507083/
 
 
 sudo chmod +x update.sh
