@@ -457,7 +457,7 @@
                       </packing>
                     </child>
                     <child>
-                      <object class="GtkSpinButton" id="sbCameraPort2">
+                      <object class="GtkSpinButton" id="sbCameraPort">
                         <property name="visible">True</property>
                         <property name="can_focus">True</property>
                         <property name="text" translatable="yes">0</property>
