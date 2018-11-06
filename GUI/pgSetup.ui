@@ -4,7 +4,7 @@
   <requires lib="gtk+" version="3.10"/>
   <object class="GtkAdjustment" id="adjCameraPortNum">
     <property name="lower">-1</property>
-    <property name="upper">100</property>
+    <property name="upper">3</property>
     <property name="step_increment">1</property>
     <property name="page_increment">10</property>
   </object>
@@ -15,6 +15,7 @@
       <object class="GtkGrid" id="grid1">
         <property name="visible">True</property>
         <property name="can_focus">False</property>
+        <property name="halign">start</property>
         <child>
           <object class="GtkGrid" id="deviceGrid">
             <property name="name"> </property>
@@ -197,6 +198,7 @@
         </child>
         <child>
           <object class="GtkGrid" id="grid2">
+            <property name="visible">True</property>
             <property name="can_focus">False</property>
             <property name="halign">start</property>
             <property name="valign">start</property>
@@ -425,36 +427,81 @@
           </packing>
         </child>
         <child>
-          <object class="GtkGrid" id="grid11">
+          <object class="GtkGrid" id="grid12">
             <property name="visible">True</property>
             <property name="can_focus">False</property>
-            <property name="halign">start</property>
             <child>
-              <object class="GtkLabel" id="label8">
+              <object class="GtkGrid" id="grid13">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="label" translatable="yes">Camera Port:</property>
-                <attributes>
-                  <attribute name="font-desc" value="Droid Sans Bold 12"/>
-                </attributes>
+                <child>
+                  <object class="GtkGrid" id="grid15">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="halign">start</property>
+                    <child>
+                      <object class="GtkLabel" id="label10">
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="halign">start</property>
+                        <property name="label" translatable="yes">Camera Port:</property>
+                        <attributes>
+                          <attribute name="font-desc" value="Droid Sans Bold 12"/>
+                        </attributes>
+                      </object>
+                      <packing>
+                        <property name="left_attach">0</property>
+                        <property name="top_attach">0</property>
+                        <property name="width">1</property>
+                        <property name="height">1</property>
+                      </packing>
+                    </child>
+                    <child>
+                      <object class="GtkSpinButton" id="sbCameraPort2">
+                        <property name="visible">True</property>
+                        <property name="can_focus">True</property>
+                        <property name="text" translatable="yes">0</property>
+                        <property name="input_purpose">alpha</property>
+                        <property name="orientation">vertical</property>
+                        <property name="adjustment">adjCameraPortNum</property>
+                        <property name="climb_rate">1</property>
+                      </object>
+                      <packing>
+                        <property name="left_attach">1</property>
+                        <property name="top_attach">0</property>
+                        <property name="width">1</property>
+                        <property name="height">1</property>
+                      </packing>
+                    </child>
+                  </object>
+                  <packing>
+                    <property name="left_attach">0</property>
+                    <property name="top_attach">0</property>
+                    <property name="width">1</property>
+                    <property name="height">1</property>
+                  </packing>
+                </child>
               </object>
               <packing>
                 <property name="left_attach">0</property>
-                <property name="top_attach">0</property>
+                <property name="top_attach">1</property>
                 <property name="width">1</property>
                 <property name="height">1</property>
               </packing>
             </child>
             <child>
-              <object class="GtkSpinButton" id="spCameraPort">
+              <object class="GtkLabel" id="label11">
                 <property name="visible">True</property>
-                <property name="can_focus">True</property>
-                <property name="orientation">vertical</property>
-                <property name="adjustment">adjCameraPortNum</property>
-                <property name="climb_rate">1</property>
+                <property name="can_focus">False</property>
+                <property name="label" translatable="yes">Communication port selection
+-1 = IP Camera
+0 -  3 = Serial Connection</property>
+                <attributes>
+                  <attribute name="font-desc" value="Bitstream Charter Bold 10"/>
+                </attributes>
               </object>
               <packing>
-                <property name="left_attach">1</property>
+                <property name="left_attach">0</property>
                 <property name="top_attach">0</property>
                 <property name="width">1</property>
                 <property name="height">1</property>

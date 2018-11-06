@@ -75,7 +75,6 @@
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
                 <property name="margin_left">15</property>
-                <property name="label" translatable="yes">IP Cam</property>
               </object>
               <packing>
                 <property name="left_attach">2</property>
