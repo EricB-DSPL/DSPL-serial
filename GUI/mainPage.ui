@@ -83,6 +83,22 @@
                 <property name="height">1</property>
               </packing>
             </child>
+            <child>
+              <object class="GtkButton" id="btnAbout">
+                <property name="label" translatable="yes">about</property>
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="receives_default">True</property>
+                <property name="halign">end</property>
+                <property name="hexpand">True</property>
+              </object>
+              <packing>
+                <property name="left_attach">3</property>
+                <property name="top_attach">0</property>
+                <property name="width">1</property>
+                <property name="height">1</property>
+              </packing>
+            </child>
           </object>
           <packing>
             <property name="expand">False</property>
