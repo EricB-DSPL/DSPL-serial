@@ -6,9 +6,11 @@
     <property name="can_focus">False</property>
     <property name="no_show_all">True</property>
     <property name="halign">center</property>
+    <property name="type">popup</property>
     <property name="resizable">False</property>
     <property name="modal">True</property>
-    <property name="type_hint">splashscreen</property>
+    <property name="window_position">center</property>
+    <property name="type_hint">normal</property>
     <property name="skip_taskbar_hint">True</property>
     <property name="decorated">False</property>
     <property name="has_resize_grip">False</property>
