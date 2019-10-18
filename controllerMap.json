@@ -127,7 +127,7 @@
 			16383,
 			32767
 			],
-			"cmd": "!001:BSCH=0,8101040725FF",
+			"cmd": "!001:BSCH=0,8101040724FF",
 			"convertToBinary": "FALSE",
 			"FLAGS": 1
 		}
