@@ -85,7 +85,7 @@
 			-16383,
 			16383
 			],
-			"cmd": "!001:BSCH=0,8101040731FF",
+			"cmd": "!001:BSCH=0,8101040732FF",
 			"convertToBinary": "FALSE",
 			"FLAGS": 1
 		},
@@ -94,7 +94,7 @@
 			16383,
 			32767
 			],
-			"cmd": "!001:BSCH=0,8101040732FF",
+			"cmd": "!001:BSCH=0,8101040734FF",
 			"convertToBinary": "FALSE",
 			"FLAGS": 1
 		}
@@ -118,7 +118,7 @@
 			-16383,
 			16383
 			],
-			"cmd": "!001:BSCH=0,8101040721FF",
+			"cmd": "!001:BSCH=0,8101040722FF",
 			"convertToBinary": "FALSE",
 			"FLAGS": 1
 		},
@@ -127,7 +127,7 @@
 			16383,
 			32767
 			],
-			"cmd": "!001:BSCH=0,8101040722FF",
+			"cmd": "!001:BSCH=0,8101040725FF",
 			"convertToBinary": "FALSE",
 			"FLAGS": 1
 		}
