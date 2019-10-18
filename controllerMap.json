@@ -83,27 +83,18 @@
 		"range1": {
 			"limits": [
 			-16383,
-			0
+			24576
 			],
 			"cmd": "!001:BSCH=0,8101040732FF",
 			"convertToBinary": "FALSE",
 			"FLAGS": 1
 		},
-		"range2": {
-			"limits": [
-			0,
-			16383
-			],
-			"cmd": "!001:BSCH=0,8101040734FF",
-			"convertToBinary": "FALSE",
-			"FLAGS": 1
-		},
 		"range3": {
 			"limits": [
-			16383,
+			24576,
 			32767
 			],
-			"cmd": "!001:BSCH=0,8101040736FF",
+			"cmd": "!001:BSCH=0,8101040735FF",
 			"convertToBinary": "FALSE",
 			"FLAGS": 1
 		}
@@ -125,7 +116,7 @@
 		"range1": {
 			"limits": [
 			-16383,
-			0
+			24576
 			],
 			"cmd": "!001:BSCH=0,8101040722FF",
 			"convertToBinary": "FALSE",
@@ -133,19 +124,10 @@
 		},
 		"range2": {
 			"limits": [
-			0,
-			16383
-			],
-			"cmd": "!001:BSCH=0,8101040724FF",
-			"convertToBinary": "FALSE",
-			"FLAGS": 1
-		},
-		"range3": {
-			"limits": [
-			16383,
+			24576,
 			32767
 			],
-			"cmd": "!001:BSCH=0,8101040726FF",
+			"cmd": "!001:BSCH=0,8101040724FF",
 			"convertToBinary": "FALSE",
 			"FLAGS": 1
 		}
