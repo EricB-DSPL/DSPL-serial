@@ -83,18 +83,18 @@
 		"range1": {
 			"limits": [
 			-24575,
-			24576
+			32760
 			],
 			"cmd": "!001:BSCH=0,8101040732FF",
 			"convertToBinary": "FALSE",
 			"FLAGS": 1
 		},
-		"range3": {
+		"range2": {
 			"limits": [
-			24576,
+			32760,
 			32767
 			],
-			"cmd": "!001:BSCH=0,8101040735FF",
+			"cmd": "!001:BSCH=0,8101040736FF",
 			"convertToBinary": "FALSE",
 			"FLAGS": 1
 		}
@@ -116,7 +116,7 @@
 		"range1": {
 			"limits": [
 			-24575,
-			24576
+			32760
 			],
 			"cmd": "!001:BSCH=0,8101040722FF",
 			"convertToBinary": "FALSE",
@@ -124,10 +124,10 @@
 		},
 		"range2": {
 			"limits": [
-			24576,
+			32760,
 			32767
 			],
-			"cmd": "!001:BSCH=0,8101040724FF",
+			"cmd": "!001:BSCH=0,8101040726FF",
 			"convertToBinary": "FALSE",
 			"FLAGS": 1
 		}
