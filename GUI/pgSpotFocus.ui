@@ -52,7 +52,8 @@
         <property name="halign">center</property>
         <property name="valign">center</property>
         <property name="label" translatable="yes">Set Camera focus to Manual
-to use Spot Focus</property>
+to use Spot Focus
+(HDZoom not supported)</property>
         <property name="justify">center</property>
         <property name="wrap">True</property>
         <property name="lines">1</property>
