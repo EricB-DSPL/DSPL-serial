@@ -55,6 +55,7 @@
                             <property name="can_focus">False</property>
                             <property name="halign">end</property>
                             <property name="valign">start</property>
+                            <property name="hexpand">True</property>
                             <child>
                               <object class="GtkLabel" id="label5">
                                 <property name="visible">True</property>
@@ -84,7 +85,7 @@
                           </object>
                           <packing>
                             <property name="left_attach">0</property>
-                            <property name="top_attach">0</property>
+                            <property name="top_attach">1</property>
                             <property name="width">1</property>
                             <property name="height">1</property>
                           </packing>
@@ -95,6 +96,7 @@
                             <property name="can_focus">False</property>
                             <property name="halign">end</property>
                             <property name="valign">start</property>
+                            <property name="hexpand">True</property>
                             <child>
                               <object class="GtkLabel" id="label6">
                                 <property name="visible">True</property>
@@ -124,7 +126,7 @@
                           </object>
                           <packing>
                             <property name="left_attach">0</property>
-                            <property name="top_attach">1</property>
+                            <property name="top_attach">2</property>
                             <property name="width">1</property>
                             <property name="height">1</property>
                           </packing>
@@ -168,7 +170,103 @@
                           </object>
                           <packing>
                             <property name="left_attach">0</property>
-                            <property name="top_attach">2</property>
+                            <property name="top_attach">3</property>
+                            <property name="width">1</property>
+                            <property name="height">1</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <object class="GtkGrid" id="grid11">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                            <child>
+                              <object class="GtkLabel" id="interface">
+                                <property name="visible">True</property>
+                                <property name="can_focus">False</property>
+                                <property name="halign">start</property>
+                                <property name="label" translatable="yes">Interface Name: </property>
+                              </object>
+                              <packing>
+                                <property name="left_attach">0</property>
+                                <property name="top_attach">0</property>
+                                <property name="width">1</property>
+                                <property name="height">1</property>
+                              </packing>
+                            </child>
+                            <child>
+                              <object class="GtkLabel" id="lblInterface">
+                                <property name="visible">True</property>
+                                <property name="can_focus">False</property>
+                                <property name="halign">end</property>
+                                <property name="hexpand">True</property>
+                                <property name="label" translatable="yes">NULL</property>
+                                <property name="justify">right</property>
+                                <property name="ellipsize">start</property>
+                              </object>
+                              <packing>
+                                <property name="left_attach">1</property>
+                                <property name="top_attach">0</property>
+                                <property name="width">1</property>
+                                <property name="height">1</property>
+                              </packing>
+                            </child>
+                            <child>
+                              <object class="GtkGrid" id="grid12">
+                                <property name="visible">True</property>
+                                <property name="can_focus">False</property>
+                                <child>
+                                  <object class="GtkButton" id="btnSetNetwork_local">
+                                    <property name="label" translatable="yes">Local</property>
+                                    <property name="visible">True</property>
+                                    <property name="can_focus">True</property>
+                                    <property name="receives_default">True</property>
+                                  </object>
+                                  <packing>
+                                    <property name="left_attach">1</property>
+                                    <property name="top_attach">0</property>
+                                    <property name="width">1</property>
+                                    <property name="height">1</property>
+                                  </packing>
+                                </child>
+                                <child>
+                                  <object class="GtkButton" id="btnSetNetwork_USB">
+                                    <property name="label" translatable="yes">USB</property>
+                                    <property name="visible">True</property>
+                                    <property name="can_focus">True</property>
+                                    <property name="receives_default">True</property>
+                                  </object>
+                                  <packing>
+                                    <property name="left_attach">2</property>
+                                    <property name="top_attach">0</property>
+                                    <property name="width">1</property>
+                                    <property name="height">1</property>
+                                  </packing>
+                                </child>
+                                <child>
+                                  <object class="GtkLabel" id="label8">
+                                    <property name="visible">True</property>
+                                    <property name="can_focus">False</property>
+                                    <property name="label" translatable="yes">Set interface </property>
+                                  </object>
+                                  <packing>
+                                    <property name="left_attach">0</property>
+                                    <property name="top_attach">0</property>
+                                    <property name="width">1</property>
+                                    <property name="height">1</property>
+                                  </packing>
+                                </child>
+                              </object>
+                              <packing>
+                                <property name="left_attach">0</property>
+                                <property name="top_attach">1</property>
+                                <property name="width">2</property>
+                                <property name="height">1</property>
+                              </packing>
+                            </child>
+                          </object>
+                          <packing>
+                            <property name="left_attach">0</property>
+                            <property name="top_attach">0</property>
                             <property name="width">1</property>
                             <property name="height">1</property>
                           </packing>
