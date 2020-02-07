@@ -265,8 +265,8 @@
                           <object class="GtkLabel" id="label4">
                             <property name="visible">True</property>
                             <property name="can_focus">False</property>
-                            <property name="label" translatable="yes">Black Level 
-Correction</property>
+                            <property name="label" translatable="yes">Gamma
+Offset</property>
                             <property name="justify">center</property>
                             <property name="ellipsize">end</property>
                             <attributes>
